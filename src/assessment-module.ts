@@ -1,11 +1,11 @@
-export const sum = (x: number, y?: number) => {
+export const sum = (x: number, y?: number): number => {
     if (!y) {
         return sum.bind(null, x);
     }
     return x + y;
 };
 
-export const isValid = (valid: boolean) => {
+export const isValid = (valid: boolean): string => {
   if (!valid) {
       return 'invalid';
   }
@@ -13,6 +13,6 @@ export const isValid = (valid: boolean) => {
 };
 
 export const count = (() => {
-    let counter = 0;
+    let counter: number = 0;
     return () => {  counter++ ; return counter };
 })();

@@ -12,6 +12,12 @@ module.exports = {
       }
     ]
   },
+  mode: 'development',
+  performance: { hints: false },
+  devServer: {
+    contentBase: './dist',
+    stats: "none"
+  },
   resolve: {
     extensions: ['.ts', '.js' ]
   },
