@@ -19,6 +19,8 @@ And to build and open the project:
 
 `npm start`
 
+Open the browser console to check the results of the function calls!
+
 You can run the tests in the terminal with:
 
 `npm test`
