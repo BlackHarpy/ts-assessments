@@ -7,14 +7,18 @@ Simple TypeScript Assessments with testing
 
 Node 10.6.0 is recommended
 
-## Run tests
+## Run the project
 
-This repository include a testing suite for the main module. 
+This repository include a simple webpage to run the module functions and a testing suite.
 
-To run the test first you must install required dependencies writing on the terminal:
+To run check the interface or running the tests, first you must install required dependencies writing on the terminal:
 
 `npm install`
 
-After that you can run the tests in the terminal with:
+And to build and open the project:
+
+`npm start`
+
+You can run the tests in the terminal with:
 
 `npm test`

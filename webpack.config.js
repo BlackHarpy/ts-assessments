@@ -16,7 +16,7 @@ module.exports = {
   performance: { hints: false },
   devServer: {
     contentBase: './dist',
-    stats: "none"
+    hot: false
   },
   resolve: {
     extensions: ['.ts', '.js' ]
