@@ -1,4 +1,4 @@
-export const sum = (x: number, y?: number): number => {
+export const sum = (x: number, y?: number) => {
     if (!y) {
         return sum.bind(null, x);
     }

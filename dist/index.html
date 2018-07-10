@@ -11,21 +11,20 @@
     #main {
         width: 100%;
         height: 100%;
-
     }
 
-    #upper-section {
+    #main-section {
         height: 50%;
         width: 100%;
         display: flex;
         justify-content: space-around;
+        font-family: "Arial";
     }
 
-    #builder, #visitor, #facade, #memento, #mediator {
-        height: 450px;
-        width: 300px;
-        overflow-x: hidden;
-        overflow-y: auto;
+
+    pre {
+        background: #ebdbff;
+        padding: 0 20px;
     }
 </style>
 <body>
@@ -33,9 +32,10 @@
 <script src="bundle.js"></script>
 <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
 <div id="main">
-    <div id="upper-section">
+    <div id="main-section">
         <div id="sum-function">
           <p>Sum function</p>
+          <p>Enter parameters as '(x,y)' or '(x)(y)'</p>
 
             <form id="sum-form" action="#" target="dummyframe">
                 <input type="text" id="params" name="sum-params"
@@ -71,7 +71,7 @@ export const isValid = (valid: boolean): string => {
           </pre>
            
         </div>
-        <div id="facade">
+        <div id="count-function">
             <p>Count function</p>
 
             <div style="text-align: center;">
